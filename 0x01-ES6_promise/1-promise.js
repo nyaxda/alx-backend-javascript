@@ -9,7 +9,9 @@ export default function getFullResponseFromAPI(success) {
     }, 1000);
   }).then((response) => {
     console.log(response);
+    return response;
   }).catch((error) => {
     console.error(error);
+    throw error;
   });
 }
