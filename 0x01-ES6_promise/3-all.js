@@ -7,5 +7,6 @@ export default async function handleProfileSignup() {
     })
     .catch(() => {
       console.error('Signup system offline');
+      throw error;
     });
 }
