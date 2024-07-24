@@ -1,5 +1,5 @@
 export default function signUpUser(firstName, lastName) {
-  const promise =  new Promise((resolve) => {
+  const promise = new Promise((resolve) => {
     setTimeout(() => {
       const person = {
         firstName,
@@ -11,4 +11,5 @@ export default function signUpUser(firstName, lastName) {
   promise.then(() => {
     console.log(promise);
   });
+  return promise;
 }
