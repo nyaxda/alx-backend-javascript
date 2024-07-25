@@ -39,7 +39,7 @@ export default class HolbertonCourse {
   }
 
   // setter for length
-  set lengths(value) {
+  set length(value) {
     if (typeof value !== 'number') {
       throw new TypeError('Expected number for length');
     }
