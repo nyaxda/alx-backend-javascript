@@ -48,7 +48,7 @@ export default class HolbertonCourse {
 
   // getter for students
   get students() {
-    return this._name;
+    return this._students;
   }
 
   // setter for students
