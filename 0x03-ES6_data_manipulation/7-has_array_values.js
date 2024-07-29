@@ -1,10 +1,10 @@
-export default function hasValuesFromArray(mySet, myArray) {
-  if (!Array.isArray(myArray)) {
+export default function hasValuesFromArray(set, array) {
+  if (!Array.isArray(array)) {
     throw new Error('Input is not an array');
   }
-  if (!(mySet instanceof Set)) {
+  if (!(set instanceof Set)) {
     throw new Error('Input is not a set');
   }
-  const allInSet = myArray.every((element) => mySet.has(element));
+  const allInSet = array.every((element) => set.has(element));
   return allInSet;
 }
