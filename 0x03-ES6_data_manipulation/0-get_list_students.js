@@ -1,3 +1,7 @@
+/**
+ * Retrieves a list of students.
+ * @returns {Array} An array of student objects.
+ */
 export default function getListStudents() {
   const obj1 = { id: 1, firstName: 'Guillaume', location: 'San Francisco' };
   const obj2 = { id: 2, firstName: 'James', location: 'Columbia' };
