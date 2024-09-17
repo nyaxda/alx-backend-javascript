@@ -6,6 +6,5 @@ const mapRoutes = (app) => {
   app.get('/students', StudentsController.getAllStudents);
   app.get('/students/:major', StudentsController.getAllStudentsByMajor);
 };
-
 export default mapRoutes;
 module.exports = mapRoutes;
